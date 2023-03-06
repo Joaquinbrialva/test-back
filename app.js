@@ -1,4 +1,4 @@
-require('dotenv');
+require('dotenv').config();
 require('./config/database');
 const cors = require('cors')
 var createError = require('http-errors');
